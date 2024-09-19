@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tyyli.css">
+    <title>Matikkapeli</title>
+</head>
+
+<body>
+    <div id="container">
+        <h3>Matikkapeli</h3>
+        <form>
+            <div>
+                <output id="num1"></output>&nbsp;+&nbsp;
+                <output id="num2"></output>&nbsp;=
+                <input type="number" id="userAnswer" />
+            </div>
+            <div>
+                <button type="button" id="calculate">Vastaus</button>
+            </div>
+        </form>
+        <div>
+            <p>Correct answers: <span id="correctCount">0</span></p>
+            <p>Incorrect answers: <span id="incorrectCount">0</span></p>
+        </div>
+    </div>
+    <script src="./js/functions.js"></script>
+</body>
+
+</html>
